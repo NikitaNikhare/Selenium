@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20219" started-at="2018-05-18T04:43:08Z" finished-at="2018-05-18T04:43:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20219" started-at="2018-05-18T04:43:08Z" finished-at="2018-05-18T04:43:28Z">
+      <class name="org.SeleniumMaven.ExcelReadExample1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="beforeTest" is-config="true" duration-ms="7307" started-at="2018-05-18T10:13:08Z" finished-at="2018-05-18T10:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ExcelRead1_Login(java.lang.String, java.lang.String)[pri:1, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="ExcelRead1_Login" duration-ms="6477" started-at="2018-05-18T10:13:16Z" data-provider="Credential" finished-at="2018-05-18T10:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcelRead1_Login -->
+        <test-method status="PASS" signature="select_category()[pri:2, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="select_category" duration-ms="568" started-at="2018-05-18T10:13:23Z" finished-at="2018-05-18T10:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_category -->
+        <test-method status="PASS" signature="AddToCart()[pri:3, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="AddToCart" duration-ms="156" started-at="2018-05-18T10:13:23Z" finished-at="2018-05-18T10:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="cart()[pri:4, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="cart" duration-ms="247" started-at="2018-05-18T10:13:23Z" finished-at="2018-05-18T10:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="checkout()[pri:5, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="checkout" duration-ms="204" started-at="2018-05-18T10:13:24Z" finished-at="2018-05-18T10:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method status="PASS" signature="payment()[pri:6, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="payment" duration-ms="153" started-at="2018-05-18T10:13:24Z" finished-at="2018-05-18T10:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method status="PASS" signature="BankDetails()[pri:7, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="BankDetails" duration-ms="3868" started-at="2018-05-18T10:13:24Z" finished-at="2018-05-18T10:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankDetails -->
+        <test-method status="PASS" signature="bankcredential()[pri:8, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="bankcredential" duration-ms="425" started-at="2018-05-18T10:13:28Z" finished-at="2018-05-18T10:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankcredential -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.SeleniumMaven.ExcelReadExample1@77cd7a0]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-18T10:13:28Z" finished-at="2018-05-18T10:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.SeleniumMaven.ExcelReadExample1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
