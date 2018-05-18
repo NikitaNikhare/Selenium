@@ -232,8 +232,8 @@ public class ExcelReadExample1 {
 	@AfterTest
 	public void afterTest() {
 
-//		driver.close();
-//		driver.quit();
+		driver.close();
+		driver.quit();
 
 	}
 
